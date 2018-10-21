@@ -1,11 +1,13 @@
 git init -> iniciar git solo si existe el proyecto
 git remote add origin git@gitlab.com:pipemaldonado/ofi-management.git -> enlazar con proyecto
 
-git add "archivo" -> a�adir archivo para commit (en caso de ser toda la carpeta raiz utilizar "." sin comillas)
+git add "archivo" -> añadir archivo para commit (en caso de ser toda la carpeta raiz utilizar "." sin comillas)
 git commit -m "comentario" -> Comentario para el commit
 git push -u origin master -> subir archivos actualizados al repositorio
 
 git pull origin master -> Actualizar repositorio
+
+git log -> Muestra el historíal de confirmaciones
 
 Generar llave ssh
 cd ~/.ssh
